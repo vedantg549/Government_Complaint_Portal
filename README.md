@@ -1,7 +1,9 @@
 # 🏛️ MyGov Complaint Portal
+
 A centralized platform enabling citizens to register grievances related to public services and governance. It empowers transparency, responsiveness, and accountability through digital engagement between citizens and government authorities.
 
-## 🚀 Features    
+## 🚀 Features
+
 - 📝 Complaint Registration: Users can submit complaints under various categories (e.g., sanitation, roads, public transport).
 
 - 🔍 Track Complaints: Users can view complaint status using a unique tracking ID.
@@ -15,17 +17,21 @@ A centralized platform enabling citizens to register grievances related to publi
 - 📊 Dashboard: Real-time analytics for complaint trends, resolutions, and departmental performance.
 
 ## 🛠️ Tech Stack
-### Frontend	Backend	Database	Others
-- React.js / HTML/CSS	Node.js / Express /ASP .NET Core (choose one),	MySQL JWT Auth,Axios
+
+### Frontend Backend Database Others
+
+- React.js / HTML/CSS Node.js / Express, MySQL JWT Auth,Axios
 
 You can swap out frameworks/libraries based on your stack preferences.
 
 ## 📦 Installation
+
 1. Clone the repository:
 
-  [GovernmentComplaintPortal](https://github.com/Deveshsharma1234/GovernmentComplaintPortal.git)
+[GovernmentComplaintPortal]()
 
 2. Install dependencies:
+
 ```.sh
 
 cd Frontend/ComplaintPortal
@@ -39,12 +45,13 @@ Run the project:
 ```.sh
 
 # frontend on frontend path
-npm run dev      
+npm run dev
 # backend (use node or ASP dot net similar)
 # For node
 node app.js
 
 ```
+
 ## Major Feautres
 
 - User Complaint Form
@@ -54,6 +61,7 @@ node app.js
 - Complaint Tracking Page
 
 ## 🔐 Security Measures
+
 - Passwords hashed with bcrypt
 
 - Role-based access control
@@ -63,6 +71,7 @@ node app.js
 - Protection against XSS & CSRF
 
 ## 📈 Future Enhancements
+
 - Mobile app integration
 
 - Chatbot support for complaint registration
@@ -72,4 +81,5 @@ node app.js
 - Multi-language support
 
 ## 🤝 Contributing
-  Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
